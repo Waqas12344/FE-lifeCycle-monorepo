@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "packageManager": "pnpm@11.10.0",
+  "packageManager": "pnpm@11.12.0",
   "scripts": {
     "dev": "lerna run dev --parallel",
     "build": "lerna run build",
