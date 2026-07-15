@@ -18,9 +18,9 @@ module.exports = {
     ],
 
     moduleNameMapper: {
-        "\\.module\\.(css|sass|scss)$": "<rootDir>/src/test/__mocks__/styleMock.js",
-        "\\.(css|less|sass|scss)$": "<rootDir>/src/test/__mocks__/styleMock.js",
-        "\\.(gif|ttf|eot|svg|png|jpg|jpeg)$": "<rootDir>/src/test/__mocks__/fileMock.js"
+        "\\.module\.(css|sass|scss)$": "<rootDir>/src/test/_mock_/styleMock.js",
+        "\\.(css|less|sass|scss)$": "<rootDir>/src/test/_mock_/styleMock.js",
+        "\\.(gif|ttf|eot|svg|png|jpg|jpeg)$": "<rootDir>/src/test/_mock_/fileMock.js"
     },
 
     setupFilesAfterEnv: [
