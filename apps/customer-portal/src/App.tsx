@@ -6,6 +6,7 @@ function App() {
     <>
       <h1> Complete life cycle </h1>
       <p>resolve some issues</p>
+      <p>hello new changes</p>
       <Button
         onClick={() => {
           alert(formatCurrency(1000));
