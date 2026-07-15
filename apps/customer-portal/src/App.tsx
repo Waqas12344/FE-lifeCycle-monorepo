@@ -5,6 +5,9 @@ function App() {
   return (
     <>
       <h1> Complete life cycle </h1>
+      <p>
+        make some new feature 
+      </p>
       <Button
         onClick={() => {
           alert(formatCurrency(1000));
